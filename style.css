@@ -13,18 +13,17 @@ body {
   background: #dcdcdc;
   min-height: 55vh;
   padding-top: 45vh;
-
 }
 .intro h1 {
-        background: #dcdcdc;
-        margin-bottom: 100px;
+  background: #dcdcdc;
+  margin-bottom: 100px;
 }
 .intro-image {
-        display: block;
-        width: 200px;
-        height: auto;
-        margin: 20px auto;
-        align-items: center;
+  display: block;
+  width: 200px;
+  height: auto;
+  margin: 20px auto;
+  align-items: center;
 }
 .intro p {
   font-style: oblique;
@@ -32,8 +31,7 @@ body {
   text-align: juatify;
 }
 .intro-role {
-
- font-weight: bold;
+  font-weight: bold;
 }
 
 nav .title {
@@ -76,10 +74,10 @@ nav ul li a:hover {
 }
 
 nav .logo {
-        float: left;
-        margin-right: 6px;
-        height: 10%;
-        width: 08%;
+  float: left;
+  margin-right: 6px;
+  height: 10%;
+  width: 08%;
 }
 
 .work {
@@ -104,7 +102,6 @@ nav .logo {
   width: 280px;
   margin: 40px 100px;
   border-radius: 5%;
-  
 }
 
 .project-pic {
@@ -224,7 +221,7 @@ footer a {
 }
 
 .fa-gmail {
-        size: 10%;
+  size: 10%;
 }
 
 .fa-twitter {
@@ -235,4 +232,19 @@ footer a {
   color: white;
 }
 
+.skills {
+ display: flex;
+ justify-content: center;
+  
+}
+
+.skill {
+  display: flex;
+  align-items: center;
+  margin-right: 20px; 
+}
+
+.skill p {
+  margin-right: 10px; 
+}
 
