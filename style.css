@@ -11,19 +11,23 @@ body {
 .intro {
   top: 0;
   background: #dcdcdc;
-  min-height: 55vh;
-  padding-top: 45vh;
+  min-height: 100vh;
+  padding-top: 20vh;
+
 }
 .intro h1 {
   background: #dcdcdc;
-  margin-bottom: 100px;
+  margin-bottom: 200px;
+  font-size: 4.5em;
 }
 .intro-image {
   display: block;
-  width: 200px;
+  width: 400px;
   height: auto;
   margin: 20px auto;
   align-items: center;
+  box-shadow: 0 10px 50px hsla(314, 86%, 49%, 0.102);
+  
 }
 .intro p {
   font-style: oblique;
@@ -242,9 +246,5 @@ footer a {
   display: flex;
   align-items: center;
   margin-right: 20px; 
-}
-
-.skill p {
-  margin-right: 10px; 
 }
 
